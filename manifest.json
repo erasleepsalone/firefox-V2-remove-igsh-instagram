@@ -26,5 +26,16 @@
   "icons": {
     "48": "icons/icon-48.png",
     "96": "icons/icon-96.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "igsh-remover@example.com",
+      "data_collection_permissions": {
+        "collects_personal_data": false,
+        "collects_browsing_history": false,
+        "collects_user_activity": false,
+        "uses_remote_servers": false
+      }
+    }
   }
 }
