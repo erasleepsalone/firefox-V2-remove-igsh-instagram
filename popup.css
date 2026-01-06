@@ -1,0 +1,21 @@
+body {
+  min-width: 260px;
+  padding: 10px;
+  font: message-box;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.hint {
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}

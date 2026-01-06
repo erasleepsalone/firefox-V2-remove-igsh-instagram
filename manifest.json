@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Instagram igsh remover",
+  "version": "1.0.0",
+  "description": "Removes the igsh query parameter from Instagram URLs before requests are sent.",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "*://instagram.com/*",
+    "*://*.instagram.com/*",
+    "*://l.instagram.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "igsh remover",
+    "default_popup": "popup.html",
+    "browser_style": true,
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  }
+}
